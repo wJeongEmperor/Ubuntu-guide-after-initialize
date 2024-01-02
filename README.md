@@ -65,8 +65,15 @@ all of setup-action should be recomended under virtual environment.
 ## 3. CUDA
 [download](https://developer.nvidia.com/cuda-toolkit-archive)
 [ref](https://webnautes.tistory.com/1844)
-'''python
+direct download using conda
+```python
 //download CUDA toolkit ver11.8
+conda install -c anaconda cudatoolkit
+```
+also cuDNN can be installed by using conda
+```python
+conda install -c anaconda cudnn
+```
 # 3. Codes
 ## 1. ASE
 last updated on 240102
