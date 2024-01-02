@@ -44,6 +44,7 @@ sudo apt-get install fcitx-hangul
 ## 0. etc
 ```python
 sudo snap install glances #cpu,memory,gpu monitor
+sudo snap install teams-for-linux #teams
 ```
 ## 1. VS code
 [download](https://code.visualstudio.com/)
