@@ -23,7 +23,7 @@ cd r8125-9.012.04
 sudo ./autorun.sh
 ```
 ## 2. hangul keyboard
-(ref) https://driz2le.tistory.com/253
+[ref](https://driz2le.tistory.com/253)
 ```python
 sudo apt-get install fcitx-hangul
 //Setting->Region&Language->Manage Installed Languages
@@ -42,6 +42,7 @@ code //run vs code
 ```
 ## 2. Anaconda
 [download](https://www.anaconda.com/download)
+[ref](https://ieworld.tistory.com/12)
 ```python
 bash "setup filename"
 sudo gedit ~/.bashrc
