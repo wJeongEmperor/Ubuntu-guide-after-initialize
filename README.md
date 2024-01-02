@@ -41,6 +41,10 @@ sudo apt-get install fcitx-hangul
 #(tap)Global Config->Trigger Input Method(what you want to make a button)
 ```
 # 2. programs
+## 0. etc
+```python
+sudo snap install glances #cpu,memory,gpu monitor
+```
 ## 1. VS code
 [download](https://code.visualstudio.com/)
 ```python
@@ -88,7 +92,7 @@ conda install -c anaconda cudnn
 last updated on 240102</br>
 [Isaacgym download](https://developer.nvidia.com/isaac-gym/download)
 [ASE](https://github.com/nv-tlabs/ASE.git)
-# 3. Virtual environment(Anaconda)
+# 4. Virtual environment(Anaconda)
 ```python
 <command list>
 python --version
@@ -102,4 +106,9 @@ pip freeze > requirements.txt #save all package on list
 pip install -r requirements.txt #install all package on the list
 pip install --upgrade "name"<="version" #install package specified version
 nvidia-smi #chech nvidia version
+```
+# 5. GPU issues
+* RuntimeError: CUDA out of memory.
+```python
+
 ```
