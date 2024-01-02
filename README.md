@@ -91,6 +91,7 @@ last updated on 240102</br>
 # 3. Virtual environment(Anaconda)
 ```python
 <command list>
+python --version
 conda create -n "virtual env. name" python=3.8
 conda env list #check environment list
 conda activate "env. name"
