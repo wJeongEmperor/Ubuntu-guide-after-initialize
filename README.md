@@ -52,3 +52,20 @@ export PATH=~/anaconda3/bin:~/anaconda3/condabin:$PATH
 source ~/.bashrc
 conda config --set auto_activate_base False
 ```
+all of setup-action should be recomended under virtual environment.
+## 3. Isaacgym
+[download](https://developer.nvidia.com/isaac-gym/download)
+## 3. CUDA
+[download](https://developer.nvidia.com/cuda-toolkit-archive)
+[ref](https://webnautes.tistory.com/1844)
+'''python
+//download CUDA toolkit ver11.8
+
+# 3. Virtual environment(Anaconda)
+```
+<command list>
+conda create -n "virtual env. name" python=3.8
+conda env list //check environment list
+conda activate "env. name"
+conda deactivate
+```
