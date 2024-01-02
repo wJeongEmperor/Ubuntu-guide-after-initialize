@@ -113,4 +113,6 @@ nvidia-smi #chech nvidia version
 ```python
 
 ```
-
+# 6. Hotkeys
+* screenshot : alt+PrtSc
+* screencapture : ctrl+alt+shift+r
