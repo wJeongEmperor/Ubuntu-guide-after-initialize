@@ -65,6 +65,7 @@ all of setup-action should be recomended under virtual environment.
 ## 3. CUDA
 [download](https://developer.nvidia.com/cuda-toolkit-archive)
 [ref](https://webnautes.tistory.com/1844)
+</br>
 direct download using conda
 ```python
 //download CUDA toolkit ver11.8
@@ -76,7 +77,7 @@ conda install -c anaconda cudnn
 ```
 # 3. Codes
 ## 1. ASE
-last updated on 240102
+last updated on 240102</br>
 [Isaacgym download](https://developer.nvidia.com/isaac-gym/download)
 [ASE](https://github.com/nv-tlabs/ASE.git)
 # 3. Virtual environment(Anaconda)
