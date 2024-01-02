@@ -88,7 +88,7 @@ last updated on 240102</br>
 [Isaacgym download](https://developer.nvidia.com/isaac-gym/download)
 [ASE](https://github.com/nv-tlabs/ASE.git)
 # 3. Virtual environment(Anaconda)
-```
+```python
 <command list>
 conda create -n "virtual env. name" python=3.8
 conda env list //check environment list
