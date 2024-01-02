@@ -34,9 +34,20 @@ sudo apt-get install fcitx-hangul
 ```
 # 2. programs
 ## 1. VS code
-(ref) https://code.visualstudio.com/
+[download](https://code.visualstudio.com/)
 ```python
 //download .deb
 sudo apt install ./"filename"
 code //run vs code
+```
+## 2. Anaconda
+[download](https://www.anaconda.com/download)
+```python
+bash "setup filename"
+sudo gedit ~/.bashrc
+//text editor//add below endline//
+export PATH=~/anaconda3/bin:~/anaconda3/condabin:$PATH
+//
+source ~/.bashrc
+conda config --set auto_activate_base False
 ```
