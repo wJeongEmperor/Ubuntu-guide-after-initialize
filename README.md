@@ -1,9 +1,11 @@
 # Ubuntu-guide-after-initialize
 ---
 # 0. apt
+'''
 $ sudo apt update
 $ sudo apt install net-tools
 $ sudo apt install build-essential
+'''
 # 1. drivers
 ## 1. network
 (especially there's no option for wired connection setting due to no ethernet driver)
