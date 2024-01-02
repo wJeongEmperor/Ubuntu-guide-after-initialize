@@ -33,3 +33,10 @@ sudo apt-get install fcitx-hangul
 //(tap)Global Config->Trigger Input Method(what you want to make a button)
 ```
 # 2. programs
+## 1. VS code
+(ref) https://code.visualstudio.com/
+```python
+//download .deb
+sudo apt install ./"filename"
+code //run vs code
+```
