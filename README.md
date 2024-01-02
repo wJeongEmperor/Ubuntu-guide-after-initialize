@@ -8,7 +8,7 @@ sudo apt install net-tools
 sudo apt install build-essential
 sudo apt git
 ```
-unziip
+* unziip
 ```python
 tar -xvf "~.tar"
 tar -zxvf "~.tar.gz"
@@ -69,7 +69,7 @@ all of setup-action should be recomended under virtual environment.</br>
 ```
 ## 3. Isaacgym
 [download](https://developer.nvidia.com/isaac-gym/download)
-## 3. CUDA
+## 4. CUDA
 [download](https://developer.nvidia.com/cuda-toolkit-archive)
 [ref](https://webnautes.tistory.com/1844)
 </br>
@@ -98,4 +98,5 @@ pip install "package name"
 pip list //check package list
 pip freeze > requirements.txt //save all package on list
 pip install -r requirements.txt //install all package on the list
+pip install --upgrade "name"<="version" //install package specified version
 ```
