@@ -1,7 +1,7 @@
 # Ubuntu-guide-after-initialize
 ---
 # 0. apt
-'''
+'''python
 $ sudo apt update
 $ sudo apt install net-tools
 $ sudo apt install build-essential
