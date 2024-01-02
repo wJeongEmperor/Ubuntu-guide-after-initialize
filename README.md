@@ -101,4 +101,5 @@ pip list #check package list
 pip freeze > requirements.txt #save all package on list
 pip install -r requirements.txt #install all package on the list
 pip install --upgrade "name"<="version" #install package specified version
+nvidia-smi #chech nvidia version
 ```
