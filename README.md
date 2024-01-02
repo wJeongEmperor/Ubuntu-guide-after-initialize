@@ -63,6 +63,7 @@ all of setup-action should be recomended under virtual environment.
 //download CUDA toolkit ver11.8
 # 3. Codes
 ## 1. ASE
+last updated on 240102
 [Isaacgym download](https://developer.nvidia.com/isaac-gym/download)
 [ASE](https://github.com/nv-tlabs/ASE.git)
 # 3. Virtual environment(Anaconda)
