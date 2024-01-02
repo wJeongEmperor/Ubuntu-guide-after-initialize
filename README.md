@@ -24,7 +24,7 @@ sudo ./autorun.sh
 ```
 ## 2. hangul keyboard
 (ref) https://driz2le.tistory.com/253
-```
+```python
 sudo apt-get install fcitx-hangul
 //Setting->Region&Language->Manage Installed Languages
 //Keyboard input method system:fcitx
