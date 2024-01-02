@@ -8,6 +8,12 @@ sudo apt install net-tools
 sudo apt install build-essential
 sudo apt git
 ```
+unziip
+```python
+tar -xvf "~.tar"
+tar -zxvf "~.tar.gz"
+unzip "~.zip"
+```
 # 1. drivers
 ## 1. network
 (especially there's no option for wired connection setting due to no ethernet driver)
