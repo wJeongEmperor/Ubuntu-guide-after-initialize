@@ -1,7 +1,7 @@
 # Ubuntu-guide-after-initialize
 base guide line for setup ubuntu after initialization
 ---
-# 0. apt
+# 0. apts
 ```
 sudo apt update
 sudo apt install net-tools
@@ -32,3 +32,4 @@ sudo apt-get install fcitx-hangul
 //Top of the right(keyboard)->Configure->(tap)Input Method(+)->(unchecked)Only Show Current Language->(put)hangul
 //(tap)Global Config->Trigger Input Method(what you want to make a button)
 ```
+# 2. programs
