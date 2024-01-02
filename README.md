@@ -22,3 +22,13 @@ tar vjxf r8125-9.012.04.tar.bz2
 cd r8125-9.012.04
 sudo ./autorun.sh
 ```
+## 2. hangul keyboard
+(ref) https://driz2le.tistory.com/253
+```
+sudo apt-get install fcitx-hangul
+//Setting->Region&Language->Manage Installed Languages
+//Keyboard input method system:fcitx
+//restart
+//Top of the right(keyboard)->Configure->(tap)Input Method(+)->(unchecked)Only Show Current Language->(put)hangul
+//(tap)Global Config->Trigger Input Method(what you want to make a button)
+```
