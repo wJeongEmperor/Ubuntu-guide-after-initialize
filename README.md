@@ -6,6 +6,7 @@ base guide line for setup ubuntu after initialization
 sudo apt update
 sudo apt install net-tools
 sudo apt install build-essential
+sudo apt git
 ```
 # 1. drivers
 ## 1. network
@@ -60,7 +61,10 @@ all of setup-action should be recomended under virtual environment.
 [ref](https://webnautes.tistory.com/1844)
 '''python
 //download CUDA toolkit ver11.8
-
+# 3. Codes
+## 1. ASE
+[Isaacgym download](https://developer.nvidia.com/isaac-gym/download)
+[ASE](https://github.com/nv-tlabs/ASE.git)
 # 3. Virtual environment(Anaconda)
 ```
 <command list>
@@ -68,4 +72,8 @@ conda create -n "virtual env. name" python=3.8
 conda env list //check environment list
 conda activate "env. name"
 conda deactivate
+pip install "package name"
+pip list //check package list
+pip freeze > requirements.txt //save all package on list
+pip install -r requirements.txt //install all package on the list
 ```
