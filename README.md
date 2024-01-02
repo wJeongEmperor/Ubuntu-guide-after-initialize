@@ -112,3 +112,4 @@ nvidia-smi #chech nvidia version
 ```python
 
 ```
+
