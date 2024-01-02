@@ -7,6 +7,7 @@ sudo apt update
 sudo apt install net-tools
 sudo apt install build-essential
 sudo apt git
+conda update -n base -c defaults conda
 ```
 * unziip
 ```python
