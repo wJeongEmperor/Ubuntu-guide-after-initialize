@@ -1,4 +1,5 @@
 # Ubuntu-guide-after-initialize
+base guide line for setup ubuntu after initialization
 ---
 # 0. apt
 ```
