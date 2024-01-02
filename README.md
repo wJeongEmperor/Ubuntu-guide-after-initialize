@@ -59,7 +59,14 @@ export PATH=~/anaconda3/bin:~/anaconda3/condabin:$PATH
 source ~/.bashrc
 conda config --set auto_activate_base False
 ```
-all of setup-action should be recomended under virtual environment.
+all of setup-action should be recomended under virtual environment.</br>
+* linkage with vscode
+```python
+//open vscode and install extentions python and code runner
+//restart vscode
+//ctrl+shift+p>python:select interpreter
+//ctrl+` //open terminal
+```
 ## 3. Isaacgym
 [download](https://developer.nvidia.com/isaac-gym/download)
 ## 3. CUDA
