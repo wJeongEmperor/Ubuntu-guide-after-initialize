@@ -40,6 +40,10 @@ sudo apt-get install fcitx-hangul
 #Top of the right(keyboard)->Configure->(tap)Input Method(+)->(unchecked)Only Show Current Language->(put)hangul
 #(tap)Global Config->Trigger Input Method(what you want to make a button)
 ```
+## 3. codecs
+```python
+sudo apt install ubuntu-restricted-extras
+```
 # 2. programs
 ## 0. etc
 ```python
