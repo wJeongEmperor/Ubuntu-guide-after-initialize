@@ -1,5 +1,5 @@
 # Ubuntu-guide-after-initialize
-base guide line for setup ubuntu after initialization
+basic guide line under setup ubuntu for me from the near future after initialization :)
 ---
 # 0. apts
 ```
@@ -9,7 +9,7 @@ sudo apt install build-essential
 sudo apt git
 conda update -n base -c defaults conda
 ```
-* unziip
+* unzip command
 ```python
 tar -xvf "~.tar"
 tar -zxvf "~.tar.gz"
@@ -45,6 +45,7 @@ sudo apt-get install fcitx-hangul
 ```python
 sudo snap install glances #cpu,memory,gpu monitor
 sudo snap install teams-for-linux #teams
+pip install gpustat #gpustat -i
 ```
 ## 1. VS code
 [download](https://code.visualstudio.com/)
@@ -77,7 +78,8 @@ all of setup-action should be recomended under virtual environment.</br>
 [download](https://developer.nvidia.com/isaac-gym/download)
 ## 4. CUDA
 [download](https://developer.nvidia.com/cuda-toolkit-archive)
-[ref](https://webnautes.tistory.com/1844)
+[ref](https://webnautes.tistory.com/1844)</br>
+Notice : Using virtual environment is highly recommended before install CUDA and cuDNN as well as others.
 </br>
 direct download using conda
 ```python
@@ -91,8 +93,8 @@ conda install -c anaconda cudnn
 # 3. Codes
 ## 1. ASE
 last updated on 240102</br>
-[Isaacgym download](https://developer.nvidia.com/isaac-gym/download)
-[ASE](https://github.com/nv-tlabs/ASE.git)
+1. [Isaacgym download](https://developer.nvidia.com/isaac-gym/download)
+2. [ASE](https://github.com/nv-tlabs/ASE.git)
 # 4. Virtual environment(Anaconda)
 ```python
 <command list>
@@ -108,11 +110,9 @@ pip install -r requirements.txt #install all package on the list
 pip install --upgrade "name"<="version" #install package specified version
 nvidia-smi #chech nvidia version
 ```
-# 5. GPU issues
+# 5. Learning issues
 * RuntimeError: CUDA out of memory.
-```python
-
-```
+  lower batch size, #environment
 # 6. Hotkeys
-* screenshot : alt+PrtSc
+* screenshot : shift+PrtSc
 * screencapture : ctrl+alt+shift+r
