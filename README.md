@@ -111,7 +111,7 @@ pip install --upgrade "name"<="version" #install package specified version
 nvidia-smi #chech nvidia version
 ```
 # 5. Learning issues
-* RuntimeError: CUDA out of memory.
+* RuntimeError: CUDA out of memory.</br>
   lower batch size, #environment
 # 6. Hotkeys
 * screenshot : shift+PrtSc
