@@ -6,6 +6,7 @@ basic guide line under setup ubuntu for me from the near future after initializa
 sudo apt update
 sudo apt install net-tools
 sudo apt install build-essential
+sudo apt install nvidia-cuda-toolkit
 sudo apt git
 conda update -n base -c defaults conda
 ```
@@ -14,6 +15,11 @@ conda update -n base -c defaults conda
 tar -xvf "~.tar"
 tar -zxvf "~.tar.gz"
 unzip "~.zip"
+```
+* gpu version command
+```python
+nvidia-smi #check nvidia driver version and CUDA driver API version
+nvcc --version #check CUDA runtime API
 ```
 # 1. drivers
 ## 1. network
