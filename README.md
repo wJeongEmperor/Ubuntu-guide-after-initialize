@@ -84,9 +84,25 @@ all of setup-action should be recomended under virtual environment.</br>
 #ctrl+shift+p>python:select interpreter
 #ctrl+` #open terminal
 ```
-## 3. Isaacgym
+## 3. Git
+```python
+sudo apt-get install git-all
+# set user name and e-mail
+git config --global user.name aaaaa
+git config --global user.email aaaaa@aaa.aaa
+# check user list
+git config --list
+```
+At vscode
+```python
+3rd tap on the left->Initialize repository
++:staging
+ctrl+enter:commit
+...->remote->add remote
+```
+## 4. Isaacgym
 [download](https://developer.nvidia.com/isaac-gym/download)
-## 4. CUDA
+## 5. CUDA
 [download](https://developer.nvidia.com/cuda-toolkit-archive)
 [ref](https://webnautes.tistory.com/1844)</br>
 Notice : Using virtual environment is highly recommended before install CUDA and cuDNN as well as others.
