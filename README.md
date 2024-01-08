@@ -95,10 +95,10 @@ git config --list
 ```
 At vscode
 ```python
-3rd tap on the left->Initialize repository
-+:staging
-ctrl+enter:commit
-...->remote->add remote
+#3rd tap on the left->Initialize repository
+#+:staging
+#ctrl+enter:commit
+#...->remote->add remote
 ```
 At git terminal
 ```python
