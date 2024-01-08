@@ -100,6 +100,23 @@ At vscode
 ctrl+enter:commit
 ...->remote->add remote
 ```
+At git terminal
+```python
+git init
+git remote add origin "address of repo."
+git remote -v
+git remote set-url origin "address of repo."
+git add *
+git status
+git reset
+git commit -m "~~~"
+git rm --cached -r "filename"
+git push -u origin master
+```
+some tips
+* adding exception
+  1. make .gitignore
+  2. add files which will be removed(e.g. text.txt, *.txt, test/)
 ## 4. Isaacgym
 [download](https://developer.nvidia.com/isaac-gym/download)
 ## 5. CUDA
