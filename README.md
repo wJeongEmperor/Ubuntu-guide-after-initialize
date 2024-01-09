@@ -134,6 +134,9 @@ pip install cuda-python
 also cuDNN can be installed by using conda
 ```python
 conda install -c anaconda cudnn
+
+pip install nvidia-pyindex
+pip install nvidia-cudnn
 ```
 # 3. Codes
 ## 1. ASE
