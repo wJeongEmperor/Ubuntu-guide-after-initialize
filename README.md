@@ -128,6 +128,8 @@ direct download using conda
 ```python
 #download CUDA toolkit ver11.8
 conda install -c anaconda cudatoolkit
+
+pip install cuda-python
 ```
 also cuDNN can be installed by using conda
 ```python
