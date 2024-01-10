@@ -104,6 +104,7 @@ At git terminal
 ```python
 git init
 git remote add origin "address of repo."
+git remote remove origin
 git remote -v
 git remote set-url origin "address of repo."
 git add *
