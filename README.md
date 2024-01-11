@@ -64,6 +64,10 @@ pip install gpustat #gpustat -i
 sudo apt install ./"filename"
 code #run vs code
 ```
+* some extension
+  python extension pack
+  python
+  pylance
 ## 2. Anaconda
 [download](https://www.anaconda.com/download)
 [ref](https://ieworld.tistory.com/12)
