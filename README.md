@@ -117,6 +117,11 @@ git reset
 git commit -m "~~~"
 git rm --cached -r "filename"
 git push -u origin master
+
+# branch
+git branch git branch "create branch name"
+git branch |-r|-a
+git branch switch "branch name"
 ```
 some tips
 * adding exception
