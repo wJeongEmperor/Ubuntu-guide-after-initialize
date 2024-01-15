@@ -6,7 +6,7 @@ basic guide line under setup ubuntu for me from the near future after initializa
 sudo apt update
 sudo apt install net-tools
 sudo apt install build-essential
-sudo apt install nvidia-cuda-toolkit
+#sudo apt install nvidia-cuda-toolkit
 sudo apt git
 conda update -n base -c defaults conda
 ```
@@ -20,6 +20,10 @@ unzip "~.zip"
 ```python
 nvidia-smi #check nvidia driver version and CUDA driver API version
 nvcc --version #check CUDA runtime API
+```
+* Recommended set
+```
+gsettings set org.gnome.settings-daemon.plugins.media-keys max-screencast-length 0
 ```
 # 1. drivers
 ## 1. network
