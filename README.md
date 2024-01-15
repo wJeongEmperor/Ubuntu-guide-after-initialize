@@ -23,7 +23,10 @@ nvcc --version #check CUDA runtime API
 ```
 * Recommended set
 ```
-gsettings set org.gnome.settings-daemon.plugins.media-keys max-screencast-length 0
+# screen case
+sudo apt-get install -y dconf-editor
+dconf-editor
+#org/gnome/settings-daemon/plugins/media-keys -> max-screencast-lenght = 0
 ```
 # 1. drivers
 ## 1. network
